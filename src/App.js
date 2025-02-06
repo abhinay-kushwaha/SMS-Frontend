@@ -35,7 +35,7 @@ function App() {
 
         <Route path="/" element={<Home />} />
         <Route path="*" element={<AppRoutes role={role} />} />
-        <Route path="*" element={<Navigate to="/login" />} />
+        {/* <Route path="*" element={<Navigate to="/login" />} /> */}
       </Routes>
     </Router>
   );

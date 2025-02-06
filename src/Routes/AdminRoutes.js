@@ -15,16 +15,15 @@ export default function AdminRoutes() {
     <>
     <ToastContainer />
     <Routes>
-     
       <Route path='/students' element={<Students />} />
       <Route path='/dashboard' element={<Dashboard />} />
       <Route path='/instructor' element={<Instructors />} />
       <Route path='/course' element={<Courses />} />
       <Route path='/addoncourse' element={<Addoncourse />} />
       <Route path='/profile' element={<Profile />} />
-      {/* <Route path='/courseDetails/:id' element={<CourseDetails />} />   */}
+      <Route path='/courseDetails/:id' element={<CourseDetails />} />  
       <Route path='/courseContent/:id' element={<CourseDetails />} />  
-      <Route path="*" element={<Navigate to="/dashboard" />} /> {/* Fallback to dashboard */}
+      <Route path="*" element={<Navigate to="/dashboard" />} />  
     </Routes>
     </>
   );

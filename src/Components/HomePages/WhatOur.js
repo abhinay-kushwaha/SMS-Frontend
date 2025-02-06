@@ -11,6 +11,8 @@ const WhatOur = () => {
   // Settings for the carousel
   const settings = {
     dots: true,
+    arrows:false,
+    autoplay:true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -56,7 +58,7 @@ const WhatOur = () => {
           <div className='flex flex-col justify-center items-center gap-2 m-2 p-2 shadow-2xl bg-white rounded-xl'>
             <h1 className='font-bold text-center text-xl'>Ajeet Saroj</h1>
             <img className='w-44 h-44 rounded-full object-cover' src={ajeet} alt='profile' />
-            <p className='text-center'>Shanti Infosoft internship has been an amazing learning experience! Hands-on projects with MERN stack technologies (MongoDB, Express.js, React, Node.js) deepened my understanding . The supportive culture and mentorship fostered significant growth.</p>
+            <p className='text-center'>Company Name internship has been an amazing learning experience! Hands-on projects with MERN stack technologies (MongoDB, Express.js, React, Node.js) deepened my understanding . The supportive culture and mentorship fostered significant growth.</p>
             <h2 className='font-bold text-center text-md'>Currently Researching</h2>
           </div>
         </div>
@@ -64,7 +66,7 @@ const WhatOur = () => {
           <div className='flex flex-col justify-center items-center gap-2 m-2 p-2 shadow-2xl bg-white rounded-xl'>
             <h1 className='font-bold text-center text-xl'>Abhinay Kushwaha</h1>
             <img className='w-44 h-44 rounded-full object-cover' src={abhinay} alt='profile' />
-            <p className='text-center'>Thank you for the valuable content in the MERN Developer training program at ShantInfosoft. While the materials have been informative, I've noticed that the learning environment lacks energy. I appreciate the effort put into organizing the program and look forward to contributing to its success.</p>
+            <p className='text-center'>Thank you for the valuable content in the MERN Developer training program at Company Name. While the materials have been informative, I've noticed that the learning environment lacks energy. I appreciate the effort put into organizing the program and look forward to contributing to its success.</p>
             <h2 className='font-bold text-center text-md'>Currently Researching</h2>
           </div>
         </div>
@@ -72,7 +74,7 @@ const WhatOur = () => {
           <div className='flex flex-col justify-center items-center gap-2 m-2 p-2 shadow-2xl bg-white rounded-xl'>
             <h1 className='font-bold text-center text-xl'>Sejal Jain</h1>
             <img className='w-44 h-44 rounded-full object-cover' src={sejal} alt='profile' />
-            <p className='text-center'>This place is really very good It was my pleasure to work with such a wonderful organization like Shanti Infosoft LLP. Earlier I was not able to crack interviews now I am able to crack Interviews. On the other hand the environment is also very good and everyone has a helping nature.</p>
+            <p className='text-center'>This place is really very good It was my pleasure to work with such a wonderful organization like Company Name LLP. Earlier I was not able to crack interviews now I am able to crack Interviews. On the other hand the environment is also very good and everyone has a helping nature.</p>
             <h2 className='font-bold text-center text-md'>Currently Researching</h2>
           </div>
         </div>

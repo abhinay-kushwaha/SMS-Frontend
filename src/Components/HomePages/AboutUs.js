@@ -84,7 +84,7 @@
 
 
 import React, { useState, useEffect } from 'react';
-import shanti from '../../Assets/shanti.jpg';
+import shanti from '../../Assets/profile.jpg';
 import CountUp from 'react-countup';
 
 const AboutUs = () => {
@@ -172,7 +172,7 @@ const AboutUs = () => {
         {/* New Section */}
         <section className="flex flex-col md:flex-row items-center mt-36 p-6 relative mb-64">
           <div className="w-3/4 md:w-2/4 flex items-center justify-center bg-indigo-500 p-9">
-            <img src={shanti} alt="Group" className="w-full h-auto" />
+            <img src={shanti} alt="Group" className="w-16 h-auto rounded-full " />
           </div>
           <div className={`absolute top-36 right-0 w-full md:w-1/2 p-10 transform transition-transform duration-1000 ${fade ? 'translate-x-full' : 'translate-x-0'}`}>
             <h2 className="text-2xl font-bold text-indigo-500 mb-4">WHAT MAKES US UNIQUE AND A PERFECT MATCH FOR YOU?</h2>

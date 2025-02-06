@@ -19,8 +19,8 @@ import AboutUs from '../Components/HomePages/AboutUs';
 
 const AllRoutes = () => {
   return (
-    <>
-      <Header />
+    <div className='flex flex-col justify-between h-screen'>
+      <div><Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -35,9 +35,9 @@ const AllRoutes = () => {
         <Route path="/my-content/:studentId" element={<StudentContent />} />
         <Route path="/studprofile" element={<StudProfile />} />
         <Route path="/about" element={<AboutUs />} />
-      </Routes>
+      </Routes></div>
       <Footer />
-    </>
+    </div>
   );
 };
 

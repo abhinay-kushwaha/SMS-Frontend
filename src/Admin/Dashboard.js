@@ -43,7 +43,7 @@ const Dashboard = () => {
         <div className="flex flex-col p-6 space-y-6">
           <header className="flex-col items-center mb-6">
             <h1 className="text-3xl font-bold">Welcome!</h1>
-            <p className='mb-10'> Navigate the future of education with Shanti Academy</p>
+            <p className='mb-10'> Navigate the future of education with Company Name</p>
             <div className="flex items-center space-x-10">
               <div className="flex bg-purple-200 rounded-xl w-80 p-4 transform transition-transform duration-300 hover:scale-110">
                 <div className="flex flex-col flex-grow">

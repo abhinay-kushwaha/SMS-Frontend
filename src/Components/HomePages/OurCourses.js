@@ -154,7 +154,7 @@ const OurCourses = () => {
           </div>
 
           {/* Course 4: MERN Stack Developer */}
-          <div className='flex flex-col font-semibold gap-3 shadow-2xl rounded-md p-2'>
+          <div className='flex flex-col font-semibold gap-3 shadow-2xl rounded-md p-2 '>
             <img src={mernStack} alt='mern logo' className='rounded-t-lg m-auto mb-28' />
             <h1 className='font-bold text-center sm:text-left'>MERN Stack Developer</h1>
             <h2 className='rounded-full p-2 bg-blue-100 text-blue-800 font-bold'>For: 12th, Diploma & College Graduates (18-28 years)</h2>

@@ -33,7 +33,7 @@ const MainContent = () => {
 
   return (
     <div className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold text-center mb-6">Shanti Infosoft Today!</h1>
+      <h1 className="text-3xl font-bold text-center mb-6">Company Name Today!</h1>
       <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-6">
         <div className="md:w-1/3 space-y-4">
           <FeatureList features={featuresLeft} animation="animate-slideInLeft" />
